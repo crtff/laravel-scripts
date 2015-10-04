@@ -8,4 +8,4 @@ mkdir phpmyadmin && tar xf phpmyadmin.tar.gz -C phpmyadmin --strip-components 1
 rm phpmyadmin.tar.gz
 
 echo 'Enabling pma.app'
-sudo bash /vagrant/scripts/serve-hhvm.sh serve pma.app $(pwd)/phpmyadmin
+sudo bash /vagrant/scripts/serve-hhvm.sh pma.app $(pwd)/phpmyadmin
