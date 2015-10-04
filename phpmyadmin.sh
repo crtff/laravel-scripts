@@ -10,4 +10,4 @@ mkdir phpmyadmin && tar xf phpmyadmin.tar.gz -C phpmyadmin --strip-components 1
 rm phpmyadmin.tar.gz
 
 echo 'Enabling pma.app'
-sudo serve pma.app $(pwd)/phpmyadmin
+serve pma.app $(pwd)/phpmyadmin
